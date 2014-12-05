@@ -1,0 +1,75 @@
+/* wildcard selector is asterisk */
+/* border-box pushes content in instead of out - stays consistent */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #444444;
+  color: white;
+  font-size: 16px;
+}
+
+/* share the same declaration for 2 different selectors*/
+a:link,
+a:visited {
+  color: green;
+}
+
+/*always do these 2 or it won't work*/
+a:hover,
+a:active {
+  color: grey
+}
+
+/* 508: highlights when you tab over things */
+a:focus {
+  border: 1px dotted grey;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+/* line divider: add in CSS not HTML because it's appearance related, not content */
+header {
+  border-bottom: 1px #777777 solid;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+/* turn off bullets: three different types: in line styling */
+nav ul {
+  list-style: none;
+}
+
+/* nested selector of the nav ul */
+nav ul li {
+  display: inline-block;
+}
+
+/* sudo class called after */
+nav ul li:after {
+  content: ' | ';
+}
+
+/* sudo class called last-child: after the last one, add this content: empty tag, so that overrides/extends the above for the last item - first-child is also an option */
+nav ul li:last-child:after {
+  content: ' ';
+}
+
+.logo {
+  font-size: 2em;
+  font-style: italic
+}
+
+/* adds spacing outside the box */
+.wrapper {
+  border: 3px #777777 solid;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 50px;
+}

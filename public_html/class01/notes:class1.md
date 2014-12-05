@@ -1,6 +1,6 @@
 Requirements:
 * Homework: Complete 80% of Homework/Labs
-* Attendance: Present for at least 10 or 18 classes
+* Attendance: Present for at least 10 or 18(can't read) classes
 
 
 ### Rules
@@ -28,10 +28,12 @@ mdn for html, not w3schools!!!
 
 
 
-Attributes:
+Attributes tags:
+```sh
 href=""
-<!-- target="_blank" -->
+target="_blank"
 class="post"
+```
 
 <span> changes sytle of text
 <code> don't read, this is computer code

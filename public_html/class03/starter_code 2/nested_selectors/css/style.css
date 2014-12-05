@@ -1,0 +1,30 @@
+body {
+  font-family: Georgia, serif;
+  line-height: 1.4; /*this number is x the font size*/
+  margin: 3em;
+  color: #888;
+}
+
+/*the browser will look for lato, but if it can't find it, then georgia, then sans-serif*/
+h1 {
+  color: black;
+  font-family: 'Lato', Georgia, sans-serif;
+  font-weight: 700;
+}
+
+/* directions for padding on the top, right, bottom, left are in that order (think trouble trbl)*/
+blockquote {
+  border-left: 5px solid #eee;
+  padding: 0 0 0 .7em;
+  margin: 0;
+}
+
+/*this is a nested selector*/
+blockquote p {
+  color: black;
+  font-style: italic;
+}
+
+blockquote p em {
+  font-style: normal;
+}
