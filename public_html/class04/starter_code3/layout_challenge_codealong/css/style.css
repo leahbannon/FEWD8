@@ -1,0 +1,147 @@
+/*=======================*/
+/*Admin*/
+/*=======================*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+/*=======================*/
+/* Page Layouts */
+/*=======================*/
+
+.top {
+  background: red;
+}
+
+.logo {
+  background: brown;
+  float: left;
+  padding: 10px;
+  width: 20%;
+}
+
+.sitenav {
+  float: right;
+}
+
+.sitenav li {
+  display: inline-block;
+}
+
+.sitenav a {
+  background: black;
+  color: white;
+  padding: 10px;
+  margin-left: 1px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.sitenav a:hover {
+  background: grey;
+}
+
+.main {
+  background: yellow;
+}
+
+.col3-main {
+  display: inline-block;
+  width: 60%;
+}
+
+.hero {
+  background: purple;
+}
+
+.col2 {
+  float: left;
+  width: 50%;
+}
+
+.sidebar {
+  background: green;
+  width: 20%;
+}
+
+.col3-left {
+  float: left;
+}
+
+.col3-right {
+  float: right;
+}
+
+.blocks {
+  background: orange;
+}
+
+.block-3col {
+  float: left;
+  width: 33.333%;
+}
+
+.block-4col {
+  float: left;
+  width: 25%;
+}
+
+.feature {
+  background: green;
+}
+
+.magazine-hero {
+  background: yellow;
+  float: left;
+  width: 80%;
+}
+
+.magazine-hero-aside {
+  background: olive;
+  float: left;
+  width: 20%;
+}
+
+.magazine-content {
+  float: right;
+  width: 80%;
+}
+
+.magazine-sidebar {
+  background: lightblue;
+  float: left;
+  width: 20%;
+  height: 650px;
+}
+
+.ftr {
+  background: blue;
+}
+
+.placeholder {
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+
+/*nested selectors: don't go more than 3 levels deep*/
+.hero .placeholder {
+  height: 400px;
+}

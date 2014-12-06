@@ -1,0 +1,46 @@
+header {
+  background: red;
+}
+
+.main {
+  background: yellow;
+  display: inline-block;
+  width: 60%;
+}
+aside {
+  background: green;
+  float: left;
+  width: 40%;
+}
+footer {
+  background: blue;
+}
+
+.sidebar-left {
+  float: left;
+  width: 20%;
+}
+
+.sidebar-right {
+  float: right;
+  width: 20%;
+}
+
+.placeholder {
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}
+
+/*clear fix: creates invisible line, tricking the browser to say nothing can live on top of this*/
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
