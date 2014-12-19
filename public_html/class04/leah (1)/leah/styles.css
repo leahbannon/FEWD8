@@ -1,0 +1,111 @@
+/**
+ * NICK: Great job, Leah! This is an excellent start!
+ *
+ * I would recommend that you limit the number of top-level tags that get
+ * directly styled. Use classes to target these - see the solution code
+ * for an example of how this can be done.
+ *
+ * Also recommend taking a look at Nicholas Gallagher's Principles of
+ * Writing Consistent, Idiomatic CSS that discusses current best practices
+ * with formatting and order: https://github.com/necolas/idiomatic-css.
+ * This will help you take your CSS to the next level!
+ *
+ */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', Georgia, sans-serif;
+  color: black;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+a:focus {
+  border: 1px dotted grey;
+}
+.wrapper {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 25px 50px 50px 50px;
+}
+img {
+  max-width: 700px;
+}
+h1 {
+  font-weight: normal;
+}
+article h1 {
+  margin: 15px 0 15px 0;
+}
+article h1 a {
+  color: black;
+  font-size: 36px;
+}
+header h1 a {
+  font-size: 50px;
+  color: #DC3E38;
+}
+.date {
+  font-size: 36px;
+  color: #DDDDDD;
+}
+.continues a {
+  float: right;
+  color: #DC3E38;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+header ul li {
+  padding-right: 15px;
+}
+header ul li a {
+  border-bottom: 2px solid #E3E3E3;
+  color: #E3E3E3;
+  font-size: 24px;
+  text-decoration: none;
+}
+footer {
+  padding: 35px 0 0 0;
+  color: #DDDDDD
+}
+footer ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+footer ul li a {
+  color: #DC3E38;
+}
+footer ul li:after {
+  content: ' | ';
+}
+footer ul li:last-child:after {
+  content: ' ';
+}
+p {
+  line-height: 1.5;
+}
+header p {
+  line-height: .4;
+  font-size: 26px;
+}
+article {
+  border-bottom: 2px solid #E3E3E3;
+  padding: 50px 0 40px 0;
+}
+article p:first-letter {
+  float: left;
+  font-size: 500%;
+  color: #E3E3E3;
+  line-height: .75;
+  padding-right: 15px;
+}
