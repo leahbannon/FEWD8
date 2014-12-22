@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+like a frame for your artwork
+better to do container:
+*/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+section,
+header,
+.block__1_4,
+.block__1_3 {
+  border: 2px solid black;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+/* normally wouldn't give elements height, don't want to mandate it is that tall, min is better so it can grow with more content
+it targets the direct descendent of the element
+*/
+
+.hamburger {
+  display: block;
+  font-size: 4em;
+  text-align: right;
+  text-decoration: none;
+  margin: 0.3em;
+}
+
+
+.hero  {
+  min-height: 300px;
+}
+
+.block-group {
+  padding: 1em;
+}
