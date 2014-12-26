@@ -1,0 +1,15 @@
+span vs. div:
+* div for layout purposes or containing components, separating content out, it's a block element
+* span is using for styling text
+
+Setting display on an element will also change layout
+* display: inline;
+* display: block;
+* display: inline-block;
+
+inline element don't do margin, they're just floating on the content
+
+block takes up 100% of the width, no matter how much content there is
+
+inline block is similar to inline in that it takes just the space it needs to, then you add block to get it to respect the margin property
+*what does margin property mean?*
