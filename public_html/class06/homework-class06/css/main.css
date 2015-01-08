@@ -178,11 +178,12 @@ a {
 /*start mobile styles*/
 @media screen and (max-width: 730px) {
 
-/*.navigation {
+.navigation {
   float: none;
-}*/
+}
 .hamburger {
-  display: block;
+  display: inline-block;
+  float: none;
 }
 .main-nav {
   display: none;
