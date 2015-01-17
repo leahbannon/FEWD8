@@ -105,12 +105,12 @@ Logical operators
 
 Multiple conditions
 &&
-my name must be GA and my password must be yellopencil, if either of those are not true, the if statement is false
+my name must be GA and my password must be yellowpencil, if either of those are not true, the if statement is false
 
 The Truth Table
 or operator is ||
 if today is tuesday OR thursday, then we have class
-if (day == "Tuesday" || day == "Thursday")
+if (day === "Tuesday" || day === "Thursday")
 
 The console is your friend
 Also jshint.com
