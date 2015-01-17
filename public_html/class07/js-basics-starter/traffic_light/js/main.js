@@ -7,7 +7,7 @@ function clearLights() {
 
 //create the function illuminateRed, first make everything black with the clearLights function, then style red
 function illuminateRed() {
-    clearLights();
+    clearLights();//parenthesis makes it execute the function
     document.getElementById('stopLight').style.backgroundColor = "red";
 }
 function illuminateYellow() {
