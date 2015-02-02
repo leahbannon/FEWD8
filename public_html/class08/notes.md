@@ -5,7 +5,7 @@ http://nickgrace.github.io/fewd8/08_functions
 - () after function tells the computer to execute that command -> "call a function"
 - Lab: Temp Converter
 
-Function
+## Function
 - expects arguments
 - they become the function parameters
 *learn the jargon*
@@ -20,3 +20,5 @@ An argument is a value passed as an input to a function.
 isNaN(testvalue) ->way to test if something is not a number
 
 ! switches things (if true, make it false)
+
+write functions when you're repeating yourself, or you want to name a step (easier to understand what/why/purpose of set of commands)
